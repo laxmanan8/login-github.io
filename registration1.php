@@ -19,6 +19,6 @@ if($num==1){
 else{
 	$reg = "insert into adminreg(name,password,country,state,phonenumber,dob) values ('$name','$pass','$country','$state','$phonenumber','$dob')";
 	mysqli_query($con,$reg);
-	echo "Registration sucessul";
+	echo "Registration successul";
 }
 ?>
